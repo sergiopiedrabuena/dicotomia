@@ -14,7 +14,7 @@ import '@styles/CarouselTrabajo.scss';
 
 function CarouselTrabajo() {
     return (
-        <Carousel id='CarouselTrabajo' fade>
+        <Carousel id='carouselTrabajo' fade>
             <Carousel.Item className='itemCarousel'>
                 <img
                     className="imageCarousel d-block w-100"
@@ -35,7 +35,7 @@ function CarouselTrabajo() {
                 />
 
                 <Carousel.Caption className='captionCarousel'>
-                    <h3>CRUD enlazada a una API pública </h3>
+                    <h3>CRUD enlazada a una API pública</h3>
                     <p>Se puede buscar, eliminar, adiccionar y visualizar productos. Montada con React con framework MUI.</p>
                     <Button target='_blank' size="lg" variant="dark" href="https://codesandbox.io/p/github/serghip/react-APIrestful/main">Visualizar</Button>
                 </Carousel.Caption>

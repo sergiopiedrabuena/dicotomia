@@ -1,15 +1,10 @@
 #carouselTrabajo{
-    width: 600px;
     z-index: 1;
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
     font-family: "Nunito", sans-serif;
-}
-
-.itemCarousel{
-
 }
 
 .captionCarousel{
@@ -48,13 +43,77 @@
     border-radius: 10px;
 }
 
-@media (max-width:800px){
+@media (min-width:0px) {
+    #carouselTrabajo{
+        display: none;
+    }
+}
+
+@media (min-width:420px) {    
+    #carouselTrabajo{
+        display: flex;
+        width: 400px;
+    }
+    .captionCarousel{
+        background-color: black;
+        width: 400px;
+        height: 200px;
+        margin-left: -60px;       
+    }
+    .captionCarousel > p{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (min-width:640px) {
+    #carouselTrabajo{
+        width: 400px;
+    }
+    .captionCarousel{
+        background-color: black;
+        width: 400px;
+        height: 200px;
+        margin-left: -60px;       
+    }
+    .captionCarousel > p{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (min-width:860px) {
     #carouselTrabajo{
         width: 500px;
     }
     .captionCarousel{
         background-color: black;
-        width: 500px;
-        margin-left: -75px;
+        width: 510px;
+        height: 200px;
+        margin-left: -80px;       
     }
+    .captionCarousel > p{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (min-width:1007px) {
+    #carouselTrabajo{
+        width: 600px;
+    }
+    .captionCarousel{
+        background-color: black;
+        width: 600px;
+        height: 180px;
+        margin-left: -90px;       
+    }
+    .captionCarousel > p{
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+}
+
+@media (min-width:1366px) {
+    
 }

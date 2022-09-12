@@ -10,13 +10,12 @@
     background-color: var(--background-green);
     padding-top: 50px;   
     border-top: 1px black solid;
-    margin-bottom: -400px;
+    overflow: hidden;
     }
 .trabajoTexto{
-    display: flex;
-    flex-direction: column;
-    align-items:flex-end;     
+    text-align: center;
     z-index: 1; 
+    width: -webkit-fill-available;
 }
 .tituloTrabajo{
     padding-bottom: 10px;
@@ -25,7 +24,8 @@
     font-size: 40px;
     font-family: 'Aboreto', cursive;      
     margin-right: 10%;      
-    z-index: 1;
+    z-index: 1;     
+    text-align: end; 
 }
 .textoTrabajo{
     margin-left: 10%;
@@ -36,11 +36,47 @@
 }
 
 #separadorTrabajo {    
-    background: var(--background-green);   
+    background: var(--background-green);
 }
 
 #pathSeparadorTrabajo {
     filter: drop-shadow(0px 0 10px black);
 }
 
+@media (min-width:0px) {
+}
 
+@media (min-width:420px) {   
+    #separadorTrabajo {
+        width: 1000px;
+        margin-top: -275px;
+    }
+}
+
+@media (min-width:640px) {
+    #separadorTrabajo {
+        width: 1000px;
+        margin-top: -275px;
+    }
+}
+
+@media (min-width:860px) {
+    #separadorTrabajo {
+        width: 1400px;
+        margin-top: -400px;
+    }
+}
+
+@media (min-width:1007px) {   
+    #separadorTrabajo {
+        width: 1400px;
+        margin-top: -400px;
+    }
+}
+
+@media (min-width:1366px) {    
+    #separadorTrabajo {
+        width: 1800px;
+        margin-top: -550px;
+    }
+}

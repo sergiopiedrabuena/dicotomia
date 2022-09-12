@@ -1,0 +1,24 @@
+.cardTrabajo{
+    display: none;
+}
+
+@media (max-width:420px){
+    .cardTrabajo{
+        display: flex;       
+    }
+    .cardTrabajo{
+        margin-bottom: 10px;
+        width: 20rem;
+        padding: 0px;
+        border:none;
+    }
+    .cardImg{         
+        filter:brightness(30%);
+    }
+    .cardsBody{
+        position: absolute;
+        z-index: 1;
+        top:75px;
+        filter:brightness(100%)
+    }
+}
