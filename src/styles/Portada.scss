@@ -1,0 +1,212 @@
+@import 'vars';
+#portadaContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    flex-direction: row;
+    width: 100%;
+    background: whitesmoke;
+    padding-top: 75px;
+}
+
+#textoContainer {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-left: 40px;
+    margin-right: 0px;
+    animation: apareceTexto 2s ease-in-out;
+}
+
+@keyframes apareceTexto {
+    0% {
+        margin-left: 0px;
+        margin-right: 40px;
+    }
+
+    100% {
+        margin-left: 40px;
+        margin-right: 0px;
+    }
+}
+
+.textoPortada {
+    margin-bottom: 10px;
+}
+
+#tituloPortada {
+    font-size: 4.9vw;
+    color: var(--text-green);
+    text-shadow: var(--text-shadow);
+    text-transform: uppercase;
+    font-family: 'Aboreto', cursive;
+}
+
+#subtituloPortada {
+    color: black;
+    font-family: 'Nunito', sans-serif;
+}
+
+#fotoContainer {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#fotoPortada {
+    width: 90%;
+    border-bottom-left-radius: 60% 60%;
+    border-bottom-right-radius: 100% 100%;
+    border-top-left-radius: 100% 100%;
+    border-top-right-radius: 60% 60%;
+    box-shadow: 1px 1px 10px 1px black;        
+    z-index: 2;        
+    animation: apareceFoto 3s ;
+}
+@keyframes apareceFoto {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+
+#fotoTexto {
+    padding-top: 20px;
+    color: var(--text-green);
+    text-shadow: var(--text-shadow);
+    z-index: 2;
+    font-size:3.5vw;
+    width: 100%;
+    animation: apareceTextoFoto 2s ease-in-out;
+    font-family: 'Martel', serif;
+    text-transform: uppercase;
+}
+
+@keyframes apareceTextoFoto {
+    0%{
+        opacity: 0;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+#separadorPortada {
+    display: flex;
+    background: whitesmoke;
+    z-index: 1;
+    margin-top: -75px;
+}
+
+#pathSeparadorPortada {
+    filter: drop-shadow(0px 0 10px black);
+}
+
+@media (max-width:420px) {
+    #portadaContainer {
+        flex-direction: column;
+        padding: 5%;
+        justify-content: flex-start;
+    }
+    #textoContainer{
+        margin-left: 0px;
+    }
+    #tituloPortada{        
+        font-size: 7.5vw;        
+        margin-left: 0px;
+        animation: none;
+    }
+    #subtituloPortada{
+        display: none;
+    }
+    #fotoContainer{
+        width: 100%;
+    }
+    #fotoPortada{
+        width: 63%
+    }
+    #fotoTexto{
+        font-size: 7vw;
+        text-align: center;
+    }
+    #separadorPortada {
+        margin-top: -5px;
+    }
+}
+
+@media (min-width:640px) {
+    #fotoContainer{
+        width: 50%;
+    }
+    #fotoPortada{
+        width: 75%
+    }
+    #fotoTexto{
+        font-size: 3vw;
+    }
+}
+
+@media (min-width:860px) {
+    #fotoContainer{
+        width: 50%;
+    }
+    #fotoPortada{
+        width: 75%
+    }
+    #fotoTexto{
+        font-size: 3vw;
+    }
+}
+
+@media (min-width:1007px) {
+    #fotoContainer{
+        width: auto;
+    }
+    #fotoPortada{
+        width: 45%
+    }
+    #fotoTexto{
+        font-size: 2.3vw;
+    }
+    #separadorPortada{
+        margin-top: -175px ;
+    }
+}
+
+@media (min-width:1240px) {
+    #fotoContainer{
+        width: auto;
+    }
+    #fotoPortada{
+        width: 40%
+    }
+    #fotoTexto{
+        font-size: 2.3vw;
+    }
+    #separadorPortada{
+        margin-top: -175px ;
+    }
+}
+
+@media (min-width:1366px) {
+    #fotoContainer{
+        width: auto;
+    }
+    #fotoPortada{
+        width: 40%
+    }
+    #fotoTexto{
+        font-size: 2.3vw;
+    }
+    #separadorPortada{
+        margin-top: -175px ;
+    }
+}

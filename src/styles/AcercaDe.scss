@@ -1,0 +1,146 @@
+@import 'vars';
+#acercadeContainer{
+    background: whitesmoke;
+    display: grid;
+    place-items: center;
+    padding-bottom: 10px;
+}
+#acercadeTexto{
+    padding-top: 10px;
+    padding-bottom: 20px;
+    text-align: left;
+    background-color: var(--background-green);
+    color: azure;
+    text-shadow: 5px 5px 12px black;
+    padding-bottom: 75px;
+}
+#tituloAcercade{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-left: 5%;
+    font-size: 30px;
+    font-family: 'Aboreto', cursive;
+}
+#textoAcercade{
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+}
+
+#cardContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -50px;
+    width: 90%;
+    z-index: 1;
+    box-shadow: 0px 0px 10px 1px black;    
+    border-radius: 5%;
+}
+.card{    
+    background-color: white;
+    border: 1px gray solid;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    text-align: center;
+    padding:10px; 
+}
+.cardIcon{
+    width: 175px;
+}
+.cardTitulo{
+    text-transform: uppercase;
+    font-size: 40px;    
+    font-family: 'Martel', serif;
+}
+.cardSubtitulo{
+    margin-top: 5px;
+    font-size: 20px;    
+    font-family: 'Nunito', sans-serif;
+}
+.cardLista{
+    list-style: none;
+    margin-top: 5% ;    
+    font-family: 'Nunito', sans-serif;
+}
+.cardListaElemento{
+    text-transform: capitalize;
+    font-size: 20px;
+}
+#cardFrontend{
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;   
+    margin-bottom: -1px;
+}
+#cardDesing{   
+    margin-top: -1px;
+    border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%;    
+}
+
+@media (max-width: 420px) {
+    #tituloAcercade{
+        font-size: 8vw;
+    }
+    #textoAcercade{
+        font-size: 3.5vw;
+    }
+    .cardTitulo{
+        font-size: 7vw;
+    }
+    .cardSubtitulo{
+        font-size: 3.5vw;
+    }
+    .cardListaElemento{
+        font-size: 3vw;
+    }    
+}
+@media (min-width: 840px) {
+    #cardContainer{
+        flex-direction: row;        
+        height: 100%;
+    }
+    #tituloAcercade{
+        font-size: 40px;
+    }
+    #textoAcercade{
+        font-size: 22px;
+    }
+    .card{
+        display: flex;
+        align-items: center;
+        padding: 3%;
+        height: 100%;
+        padding-bottom: 75px;
+    }
+    .cardTitulo{
+        font-size: 30px;
+    }
+    .cardSubtitulo{
+        font-size: 20px;
+    }
+    .cardListaElemento{
+        font-size: 20px;
+    }
+    #cardFrontend{               
+        border-top-right-radius: 0%;
+        border-top-left-radius: 10% 5%; 
+        border-bottom-left-radius: 10% 5%; 
+    }
+    #cardBackend{   
+        margin-left: -1px;    
+        margin-right: -1px; 
+        margin-top: 1px;
+    }
+    #cardDesing{   
+        margin-top: 1px;
+        border-bottom-left-radius: 0%;
+        border-bottom-right-radius: 10% 5%;
+        border-top-right-radius: 10% 5%;    
+    }
+}
+

@@ -7,10 +7,10 @@ const Header = () => {
 			<div className="navbar-left">
 				<ul>
 					<li>
-						<a href="#acercade">Acerca de</a>
+						<a href="#acercaDe">Acerca de</a>
 					</li>
 					<li>
-						<a href="#trabajos">Trabajos</a>
+						<a href="#trabajo">Trabajos</a>
 					</li>
 					<li>
 						<a href="#contacto">Contacto</a>
