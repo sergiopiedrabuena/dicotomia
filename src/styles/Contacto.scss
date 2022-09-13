@@ -10,9 +10,33 @@
 .tituloContacto{
     padding-bottom: 10px;
     padding-top: 10px;
+    font-size: 40px;
+    font-family: 'Aboreto', cursive;  
 }
-.textoContacto{
-    margin-left: 10%;
-    margin-right: 10%;
-    text-align: center;
+#contenidoRedes{
+    display: flex;
+    flex-direction: row;
+}
+#contenidoRedes img{
+    width: 35px;
+    height: 35px;
+}
+#contenidoRedes a{
+    display: flex;
+    justify-content: center;
+    padding-top: 3px;
+}
+
+.redesAcercaDe{    
+    margin:25px;
+    margin-top: 0;
+    border-radius: 100px;
+    border:1px double greenyellow;
+    width: 45px;
+    height: 45px;    
+    background: whitesmoke;
+    opacity: 0.9;
+}
+.redesAcercaDe:hover{
+    opacity: 1;
 }

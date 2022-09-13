@@ -14,7 +14,7 @@ const AcerdaDe = () => {
 					<p id='textoAcercade'>¡Hola! Bienvenido a mi portafolio.<br /> Tengo 27 años, oriundo de la ciudad de La plata, Buenos Aires, Argentina. Comencé estudiando de Analista en sistemas de información en la Universidad Tecnológica Nacional, hasta que encontré mi vocación como desarrollado fullstack siendo actualmente autodidacta en complemento con la escuela de desarrollo web e ingles de Platzi Academy.<br /><br /> Sumado a la experiencia universitaria, <b>tengo 2 años de experiencia en programación fullstack</b>, aunque me oriento al área frontend.</p>
 				</div>
 				<div id='cardContainer'>
-					<div id='cardFrontend' className='card'>
+					<div id='cardFrontend' className='cardAcercaDe'>
 						<img className='cardIcon' src={frontendIcon}></img>
 						<h1 className='cardTitulo'>Frontend</h1>
 						<p className='cardSubtitulo'>Me gusta trabajar sobre este área, mi portafolio contiene css puro, aunque tambien he usado diferentes framework y bibliotecas.<br /><br /><b>He aqui con lo que he trabajado:</b></p>						<div className='cardContenido'>
@@ -29,7 +29,7 @@ const AcerdaDe = () => {
 							</ul>
 						</div>
 					</div>
-					<div id='cardBackend' className='card'>
+					<div id='cardBackend' className='cardAcercaDe'>
 						<img className='cardIcon' src={backendIcon}></img>
 						<h1 className='cardTitulo'>Backend</h1>
 						<p className='cardSubtitulo'>Tengo experiencias montando aplicaciones web, crud con manejo de base de datos y startups<br /><br /><b>Habitualmente trabajo con:</b></p>
@@ -46,7 +46,7 @@ const AcerdaDe = () => {
 							</div>
 						</div>
 					</div>
-					<div id='cardDesing' className='card'>
+					<div id='cardDesing' className='cardAcercaDe'>
 						<img className='cardIcon' src={desingIcon}></img>
 						<h1 className='cardTitulo'>Diseño</h1>
 						<p className='cardSubtitulo'>Desde el lado artístico he aprendido a usar algunas herramientas que me resultan practicas<br /><br /><b>Tengo las nociones basicas de:</b></p>

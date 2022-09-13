@@ -7,7 +7,7 @@ import Image2 from '../assets/images/image2.jpg';
 function CardSecond() {
   return (
     <Card className='cardTrabajo'>
-      <div className='cardContainer'>
+      <div className='cardContainerTrabajo'>
       <Card.Img className='cardImg' src={Image2} />
       <Card.Body className='cardsBody'>
         <Card.Title>CRUD enlazada a una API pública</Card.Title>

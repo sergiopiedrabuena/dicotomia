@@ -7,7 +7,7 @@ import Image1 from '../assets/images/image1.jpg';
 function CardFirst() {
   return (
     <Card className='cardTrabajo'>
-      <div className='cardContainer'>
+      <div className='cardContainerTrabajo'>
       <Card.Img className='cardImg' src={Image1} />
       <Card.Body className='cardsBody'>
         <Card.Title>Mapa interactivo con buscador</Card.Title>

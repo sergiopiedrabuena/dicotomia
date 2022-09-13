@@ -7,7 +7,7 @@ import Image4 from '../assets/images/image4.jpg';
 function CardFourth() {
   return (
     <Card className='cardTrabajo'>
-      <div className='cardContainer'>
+      <div className='cardContainerTrabajo'>
       <Card.Img className='cardImg' src={Image4} />
       <Card.Body className='cardsBody'>
         <Card.Title>Cartas personalizadas de agentes</Card.Title>

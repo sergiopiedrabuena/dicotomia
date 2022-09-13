@@ -12,7 +12,8 @@
     background-color: var(--background-green);
     color: azure;
     text-shadow: 5px 5px 12px black;
-    padding-bottom: 75px;
+    padding-bottom: 75px;    
+    width: -webkit-fill-available;
 }
 #tituloAcercade{
     padding-bottom: 10px;
@@ -39,7 +40,7 @@
     box-shadow: 0px 0px 10px 1px black;    
     border-radius: 5%;
 }
-.card{    
+.cardAcercaDe{    
     background-color: white;
     border: 1px gray solid;
     width: 100%;
@@ -110,7 +111,7 @@
     #textoAcercade{
         font-size: 22px;
     }
-    .card{
+    .cardAcercaDe{
         display: flex;
         align-items: center;
         padding: 3%;

@@ -5,6 +5,8 @@
     align-items: center;
     justify-content: center;
     font-family: "Nunito", sans-serif;
+    border-radius: 15px;
+    overflow: hidden;
 }
 
 .captionCarousel{
@@ -19,6 +21,7 @@
 }
 .imageCarousel:hover{
     animation: disableFilter 1s;
+    cursor: pointer;
     filter: none;
 }
 @keyframes disableFilter {
@@ -43,6 +46,18 @@
     border-radius: 10px;
 }
 
+.captionCarousel h3{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.captionCarousel p{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.carousel-indicators{
+    margin: 0;
+}
+
 @media (min-width:0px) {
     #carouselTrabajo{
         display: none;
@@ -52,34 +67,24 @@
 @media (min-width:420px) {    
     #carouselTrabajo{
         display: flex;
-        width: 400px;
+        width: 450px;
     }
     .captionCarousel{
         background-color: black;
-        width: 400px;
-        height: 200px;
-        margin-left: -60px;       
+        width: 450px;
+        height: 100px;
+        margin-left: -67px;       
     }
-    .captionCarousel > p{
-        margin-left: 5px;
-        margin-right: 5px;
+    .captionCarousel h3{
+        font-size: large;
+    }
+    .captionCarousel p{
+        font-size: small;
     }
 }
 
 @media (min-width:640px) {
-    #carouselTrabajo{
-        width: 400px;
-    }
-    .captionCarousel{
-        background-color: black;
-        width: 400px;
-        height: 200px;
-        margin-left: -60px;       
-    }
-    .captionCarousel > p{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
+    
 }
 
 @media (min-width:860px) {
@@ -88,30 +93,13 @@
     }
     .captionCarousel{
         background-color: black;
-        width: 510px;
-        height: 200px;
-        margin-left: -80px;       
-    }
-    .captionCarousel > p{
-        margin-left: 5px;
-        margin-right: 5px;
+        width: 500px;
+        height: 100px;
+        margin-left: -75px;       
     }
 }
 
 @media (min-width:1007px) {
-    #carouselTrabajo{
-        width: 600px;
-    }
-    .captionCarousel{
-        background-color: black;
-        width: 600px;
-        height: 180px;
-        margin-left: -90px;       
-    }
-    .captionCarousel > p{
-        margin-left: 5px;
-        margin-right: 5px;
-    }
 }
 
 @media (min-width:1366px) {
