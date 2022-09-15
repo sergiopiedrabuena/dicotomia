@@ -66,10 +66,11 @@ nav {
 }
 @media (max-width: 640px) {
 	nav{		
-	width: auto;
+		display: none;
+		width: auto;
 	}
 	.menu {
-		display: block;
+		display: none;
 	}
 	.navbar-left ul {
 		display: none;

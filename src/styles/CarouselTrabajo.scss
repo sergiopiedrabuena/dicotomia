@@ -1,6 +1,6 @@
 #carouselTrabajo{
     z-index: 1;
-    background-color: black;
+    background-color: green;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -11,12 +11,16 @@
 
 .captionCarousel{
     background-color: black;
+    filter: opacity(90%);
     width: 800px;
     margin-left: -120px;
 }
+.captionCarousel h3{
+    filter: opacity(100%);
+}
 
 .imageCarousel{
-    filter: opacity(75%) brightness(80%);
+    filter: opacity(80%) brightness(90%);
     animation: enableFilter 1s;
 }
 .imageCarousel:hover{
@@ -26,7 +30,7 @@
 }
 @keyframes disableFilter {
     0%{
-        filter: opacity(75%) brightness(80%);
+        filter: opacity(80%) brightness(90%);
     }
     100%{
         filter: none;
@@ -37,7 +41,7 @@
         filter: none;
     }
     100%{
-        filter: opacity(75%)  brightness(80%);
+        filter: opacity(80%)  brightness(90%);
     }
 }
 
@@ -70,7 +74,6 @@
         width: 450px;
     }
     .captionCarousel{
-        background-color: black;
         width: 450px;
         height: 100px;
         margin-left: -67px;       
@@ -81,6 +84,14 @@
     .captionCarousel p{
         font-size: small;
     }
+    .imageCarousel{
+        filter: none;
+        animation: none;
+    }
+    .imageCarousel:hover{
+        filter: none;
+        animation: none;
+    }
 }
 
 @media (min-width:640px) {
@@ -89,14 +100,14 @@
 
 @media (min-width:860px) {
     #carouselTrabajo{
-        width: 500px;
+        width: 600px;
     }
     .captionCarousel{
-        background-color: black;
-        width: 500px;
+        width: 600px;
         height: 100px;
-        margin-left: -75px;       
+        margin-left: -90px;       
     }
+    
 }
 
 @media (min-width:1007px) {
