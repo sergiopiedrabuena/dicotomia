@@ -71,6 +71,32 @@
 @media (min-width:420px) {    
     #carouselTrabajo{
         display: flex;
+        width: 400px;
+    }
+    .captionCarousel{
+        width: 400px;
+        height: 100px;
+        margin-left: -60px;       
+    }
+    .captionCarousel h3{
+        font-size: large;
+    }
+    .captionCarousel p{
+        font-size: small;
+    }
+    .imageCarousel{
+        filter: none;
+        animation: none;
+    }
+    .imageCarousel:hover{
+        filter: none;
+        animation: none;
+    }
+}
+
+@media (min-width:640px) {
+    #carouselTrabajo{
+        display: flex;
         width: 450px;
     }
     .captionCarousel{
@@ -94,10 +120,6 @@
     }
 }
 
-@media (min-width:640px) {
-    
-}
-
 @media (min-width:860px) {
     #carouselTrabajo{
         width: 600px;
@@ -114,5 +136,12 @@
 }
 
 @media (min-width:1366px) {
-    
+    #carouselTrabajo{
+        width: 700px;
+    }
+    .captionCarousel{
+        width: 700px;
+        height: 100px;
+        margin-left: -105px;       
+    }
 }
