@@ -4,6 +4,7 @@
     display: grid;
     place-items: center;
     padding-bottom: 10px;
+    background-color: var(--background-green);
 }
 #acercadeTexto{
     padding-top: 10px;
@@ -14,6 +15,7 @@
     text-shadow: 5px 5px 12px black;
     padding-bottom: 75px;    
     width: -webkit-fill-available;
+    z-index: 2;
 }
 #tituloAcercade{
     padding-bottom: 10px;
