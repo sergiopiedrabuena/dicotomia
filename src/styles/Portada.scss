@@ -1,4 +1,5 @@
 @import 'vars';
+
 #portadaContainer {
     display: flex;
     align-items: center;
@@ -7,7 +8,6 @@
     width: 100%;
     background: whitesmoke;
     padding-top: 75px;
-    
 }
 
 #textoContainer {
@@ -41,6 +41,7 @@
     border-right: 2px solid;
     width: 15ch;
     animation: typing 1.7s steps(15), blink .5s infinite step-end alternate;
+    animation-delay: 1s;
     overflow: hidden;
 }
 @keyframes typing {
@@ -67,7 +68,7 @@
     box-shadow: 1px 1px 10px 1px black;        
     z-index: 2;        
     animation: apareceFoto 3s ;
-    background-color:aliceblue
+    background-color:aliceblue;    
 }
 @keyframes apareceFoto {
     0%{
@@ -108,6 +109,7 @@
         padding: 5%;
         justify-content: flex-start;
     }
+
     #textoContainer{
         margin-left: 0px;
     }

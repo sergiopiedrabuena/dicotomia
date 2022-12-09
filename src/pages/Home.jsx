@@ -1,16 +1,34 @@
 import React from 'react';
+import Welcome  from '../components/Welcome';
+import "../styles/Home.scss";
+
+//Tamaño de pantalla
+function resizeListener() {
+	return window.innerHeight;
+}
+function resizer() {
+	let pageSelector = document.getElementById('pageSelector');
+	let value = resizeListener();
+	pageSelector.style = `height: ${value}px`;
+}
+window.addEventListener("resize", () => {
+	resizer();
+});
+window.addEventListener("load", () => {
+	resizer()
+});
+
+import "../styles/Welcome.scss";
 
 const Home = () => {
 	return (
-		<>	
-			<h1> Modo desarrollo</h1>
-			<h2> Division Perfiles</h2>
-			<ul>
-			<li><a href='/serghip'>Perfil artistico</a></li>
-			<li><a href='/portfolio'>Portfolio</a></li>
-			</ul>			
-			
-		</>
+		<div>
+			<Welcome/>
+			<ul id='pageSelector' className='pageSelector'>
+				<li className='portfolioPage'><a href='/portfolio'>Portfolio</a></li>
+				<li className='serghipPage'><a href='/serghip'>Perfil<br/>artistico</a></li>
+			</ul>
+		</div>
 	);
 }
 

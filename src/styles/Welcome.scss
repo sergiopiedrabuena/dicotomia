@@ -1,0 +1,35 @@
+
+.welcomeMessage{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top:0px;
+    bottom: 0px;
+    margin: 0 auto;
+    padding: 0;
+    background-color: black;
+    animation: disappearWelcomeMessage 2s;
+    animation-delay: 2s;
+    transition: easy 2s;
+}
+
+@keyframes disappearWelcomeMessage {
+    0%{opacity: 1;}100%{opacity: 0;}
+}
+
+
+.welcomeMessage p{
+    display: grid;
+    place-items: center;
+    height: 100%;
+    font-size: 8.9vw;    
+    text-shadow: var(--text-shadow);    
+    text-transform: uppercase;    
+    font-family: 'Aboreto', cursive;
+    color:gainsboro;
+    animation: expandWelcomeMessage 1s;
+}
+
+@keyframes expandWelcomeMessage {
+    0%{font-size: 0; opacity: 0; }100%{font-size: 8.9vw; opacity: 1;}
+}
