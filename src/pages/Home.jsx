@@ -1,6 +1,7 @@
 import React from 'react';
 import Welcome  from '../components/Welcome';
 import "../styles/Home.scss";
+import "../styles/Welcome.scss";
 
 //Tamaño de pantalla
 function resizeListener() {
@@ -17,8 +18,6 @@ window.addEventListener("resize", () => {
 window.addEventListener("load", () => {
 	resizer()
 });
-
-import "../styles/Welcome.scss";
 
 const Home = () => {
 	return (

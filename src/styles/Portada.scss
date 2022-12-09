@@ -40,8 +40,6 @@
     white-space: nowrap;
     border-right: 2px solid;
     width: 15ch;
-    animation: typing 1.7s steps(15), blink .5s infinite step-end alternate;
-    animation-delay: 1s;
     overflow: hidden;
 }
 @keyframes typing {
@@ -66,8 +64,7 @@
     border-top-left-radius: 100% 100%;
     border-top-right-radius: 60% 60%;
     box-shadow: 1px 1px 10px 1px black;        
-    z-index: 2;        
-    animation: apareceFoto 3s ;
+    z-index: 2;
     background-color:aliceblue;    
 }
 @keyframes apareceFoto {
@@ -91,7 +88,7 @@
     text-transform: uppercase;
 }
 
-@keyframes apareceTextoFoto {
+@keyframes apareceTexto {
     0%{
         opacity: 0;
     }

@@ -10,13 +10,25 @@ import desingIcon from '../assets/icons/desing.png';
 const AcerdaDe = () => {
 	return (
 		<>
-			
+			<section id='acercadeSection'>
 			<div id='acercadeContainer'>
 				<ShapeWave></ShapeWave>
 				<div id='acercadeTexto'>
 					<h1 id='tituloAcercade'>Acerca de mi</h1>
-					<p id='textoAcercade'>¡Hola! Bienvenido a mi portafolio.<br /> Tengo 27 años, oriundo de la ciudad de La plata, Buenos Aires, Argentina. Comencé estudiando de Analista en sistemas de información en la Universidad Tecnológica Nacional, hasta que encontré mi vocación como desarrollado fullstack siendo actualmente autodidacta en complemento con la escuela de desarrollo web e ingles de Platzi Academy.<br /><br /> Sumado a la experiencia universitaria, <b>tengo 2 años de experiencia en programación fullstack</b>, aunque me oriento al área frontend.</p>
+					<p id='textoAcercade'>
+						¡Hola! Bienvenido a mi portafolio.<br /> 
+						Tengo 27 años, oriundo de la ciudad de La plata, 
+						Buenos Aires, Argentina. Comencé estudiando Analista en 
+						sistemas de información en la Universidad Tecnológica Nacional, 
+						hasta que encontré mi vocación como <b>desarrollador fullstack</b> siendo 
+						actualmente autodidacta en complemento con la escuela de desarrollo 
+						web e ingles de Platzi Academy.<br /> Sumado a la experiencia 
+						universitaria, <b>tengo 2 años de experiencia en programación 
+						fullstack</b>, aunque me oriento al área frontend.</p>
 				</div>
+			</div>
+			</section>
+			<section id="cardAcercadeSection">
 				<div id='cardContainer'>
 					<div id='cardFrontend' className='cardAcercaDe'>
 						<img className='cardIcon' src={frontendIcon}></img>
@@ -65,7 +77,7 @@ const AcerdaDe = () => {
 						</div>
 					</div>
 				</div>
-			</div>
+			</section>
 		</>
 	);
 };

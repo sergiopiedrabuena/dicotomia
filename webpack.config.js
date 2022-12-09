@@ -7,7 +7,7 @@ module.exports = {
 	output: {
 		path: path.resolve(__dirname, ''),
 		filename: 'bundle.js',
-		publicPath: '/'
+		publicPath: '/',
 	},
 	mode: 'development',
 	resolve: {
@@ -51,6 +51,31 @@ module.exports = {
 			{
 				test: /\.(png|svg|jpg|gif)$/,
 				type: 'asset'
+			},
+			{
+				test: /\.(woff|woff2|ttf|eot)$/i,  // Tipos de fuentes a incluir
+				type: 'asset/resource',  // Tipo de módulo a usar (este mismo puede ser usado para archivos de imágenes)
+				generator: {
+					filename: 'static/fonts/[hash][ext][query]',  // Directorio de salida
+				},
+				options: {
+					limit: 10000, // O LE PASAMOS UN BOOLEANOS TRUE O FALSE
+					// Habilita o deshabilita la transformación de archivos en base64.
+					mimetype: 'aplication/font-woff',
+					// Especifica el tipo MIME con el que se alineará el archivo. 
+					// Los MIME Types (Multipurpose Internet Mail Extensions)
+					// son la manera standard de mandar contenido a través de la red.
+					name: "[name].[ext]",
+					// EL NOMBRE INICIAL DEL ARCHIVO + SU EXTENSIÓN
+					// PUEDES AGREGARLE [name]hola.[ext] y el output del archivo seria 
+					// ubuntu-regularhola.woff
+					outputPath: './assets/fonts/',
+					// EL DIRECTORIO DE SALIDA (SIN COMPLICACIONES)
+					publicPath: './assets/fonts/',
+					// EL DIRECTORIO PUBLICO (SIN COMPLICACIONES)
+					esModule: false
+					// AVISAR EXPLICITAMENTE SI ES UN MODULO
+				}
 			}
 		]
 	},

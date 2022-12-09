@@ -11,3 +11,31 @@
 	--md: 16px;
 	--lg: 18px;
 }
+@font-face {
+    font-family: 'Nunito';
+    src: url('/src/assets/fonts/nunito-v25-latin-regular.woff2') format('woff2'),
+    url('/src/assets/fonts/nunito-v25-latin-regular.woff') format("woff"),
+    url('/src/assets/fonts/nunito-v25-latin-regular.ttf') format("ttf");
+}
+@font-face {
+    font-family: 'Aboreto';
+    src: url('/src/assets/fonts/aboreto-v2-latin-regular.woff2') format('woff2'),
+    url('/src/assets/fonts/aboreto-v2-latin-regular.woff') format("woff"),
+    url('/src/assets/fonts/aboreto-v2-latin-regular.eot') format("eot"),
+    url('/src/assets/fonts/aboreto-v2-latin-regular.ttf') format("ttf");
+}
+@font-face {
+    font-family: 'Martel';
+    src: url('/src/assets/fonts/martel-v10-latin-regular.woff2') format('woff2'),
+    url('/src/assets/fonts/martel-v10-latin-regular.woff') format("woff"),
+    url('/src/assets/fonts/martel-v10-latin-regular.eot') format("eot"),
+    url('/src/assets/fonts/martel-v10-latin-regular.ttf') format("ttf");
+}
+
+@font-face {
+    font-family: 'Quattrocento Sans';
+    src: url('/src/assets/fonts/quattrocento-sans-v18-latin-regular.woff2') format('woff2'),
+    url('/src/assets/fonts/quattrocento-sans-v18-latin-regular.woff') format("woff"),
+    url('/src/assets/fonts/quattrocento-sans-v18-latin-regular.eot') format("eot"),
+    url('/src/assets/fonts/quattrocento-sans-v18-latin-regular.ttf') format("ttf");
+}

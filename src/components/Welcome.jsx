@@ -4,7 +4,7 @@ import "../styles/Welcome.scss";
 setTimeout(() =>{
     let welcomeMessage = document.getElementById('welcomeMessage');
     welcomeMessage.style.display = "none"
-},4000);
+},3000);
 
 const Welcome = () => {
     return (

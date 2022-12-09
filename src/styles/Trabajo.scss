@@ -9,7 +9,8 @@
     text-shadow: var(--text-shadow-secondary);
     background-color: var(--background-green);
     padding-top: 50px;   
-    overflow: hidden;
+    overflow: hidden;    
+    margin-top: -50px;
     }
 .trabajoTexto{
     text-align: center;
@@ -45,6 +46,7 @@
 }
 
 @media (min-width:420px) {
+    
     #separadorTrabajo{
         margin-top: -90px ;
     }
@@ -57,6 +59,10 @@
 }
 
 @media (min-width:860px) {
+    
+    .contenidoTrabajo{        
+        margin-top: -100px;
+        }
     #separadorTrabajo{
         margin-top: -200px ;
     }

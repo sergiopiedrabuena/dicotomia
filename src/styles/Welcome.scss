@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css?family=Quattrocento+Sans);
 
 .welcomeMessage{
     position: absolute;
@@ -21,11 +22,11 @@
 .welcomeMessage p{
     display: grid;
     place-items: center;
-    height: 100%;
-    font-size: 8.9vw;    
+    height: 100%;   
     text-shadow: var(--text-shadow);    
-    text-transform: uppercase;    
-    font-family: 'Aboreto', cursive;
+    text-transform: uppercase;
+    font-family: 'Quattrocento Sans', sans-serif;
+    font-size: 7vw;
     color:gainsboro;
     animation: expandWelcomeMessage 1s;
 }

@@ -4,7 +4,6 @@ import Home from '@pages/Home';
 import Serghip from '@pages/Serghip';
 import Portfolio from '@pages/Portfolio';
 import '@styles/global.css';
-import Layout from '../containers/Layout';
 
 const App = () => {
 	return (
