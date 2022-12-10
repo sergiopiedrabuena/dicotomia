@@ -7,7 +7,7 @@ import '@styles/Contacto.scss'
 const Contacto = () => {
 	return (
 		<>
-			<footer className='contenidoContacto'>
+			<footer id="contenidoContacto" className='contenidoContacto'>
 				<h1 className='tituloContacto'> CONTACTO </h1>
 				<div id='contenidoRedes'>
 					<div className='redesAcercaDe' id='linkedin'><a href='https://github.com/serghip'><img src={Icon1}></img></a></div>

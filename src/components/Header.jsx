@@ -7,20 +7,20 @@ const Header = () => {
 			<div className="navbar-left">
 				<ul>
 					<li>
-						<a href="#acercaDe">Acerca de</a>
+						<a href="#acercadeContainer">Acerca de</a>
 					</li>
 					<li>
-						<a href="#trabajo">Trabajos</a>
+						<a href="#contenidoTrabajo">Trabajos</a>
 					</li>
 					<li>
-						<a href="#contacto">Contacto</a>
+						<a href="#contenidoContacto">Contacto</a>
 					</li>
 				</ul>
 			</div>
 			<div className="navbar-right">
 				<ul>
-					<li className="navbar-email">
-						<a href="#portada">Sergio Piedrabuena</a>
+					<li>
+						<a href="#portadaContainer">Sergio Piedrabuena</a>
 					</li>
 				</ul>
 			</div>

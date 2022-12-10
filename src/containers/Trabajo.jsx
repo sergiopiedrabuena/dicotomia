@@ -6,7 +6,7 @@ import CardsTrabajo from '../components/CardsTrabajo';
 const Trabajo = () => {
 	return (
 		<>
-			<div className='contenidoTrabajo'>
+			<div id="contenidoTrabajo" className='contenidoTrabajo'>
 				<div className='trabajoTexto'>
 					<h1 className='tituloTrabajo'>TRABAJOS</h1>
 					<p className='textoTrabajo'> Puede visualizar cualquiera de mis proyectos enlazados a codesandbox mediante repositorio de github.</p>

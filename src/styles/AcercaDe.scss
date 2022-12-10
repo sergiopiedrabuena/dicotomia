@@ -4,18 +4,17 @@
     background: whitesmoke;
     display: grid;
     place-items: center;
-    padding-bottom: 10px;
-    background-color: var(--background-green);
+    background: #166D3B;
 }
 #acercadeTexto{
     padding-top: 10px;
-    margin-bottom: 60px;
+    padding-bottom: 60px;
     text-align: left;
-    background-color: var(--background-green);
+    background: rgb(0,0,0);
+    background: var(--background-green-gradient);
     color: azure;
     text-shadow: 5px 5px 12px black;  
     width: -webkit-fill-available;
-    z-index: 2;
 }
 #tituloAcercade{
     padding-bottom: 10px;
@@ -31,11 +30,11 @@
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
 }
-#cardAcercadeSection{    
+#cardAcercadeSection{
     display: grid;
     place-items: start center;
     justify-content: center;
-    background-color: var(--text-green)
+    background-color: black;
 }
 
 #cardContainer{

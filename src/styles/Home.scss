@@ -22,7 +22,8 @@
 }
 
 .serghipPage{
-    background-color: grey;
+    background: rgb(4,97,159);
+background: radial-gradient(circle, rgba(4,97,159,1) 0%, rgba(0,0,0,1) 100%);
     font-size: 3.9vw;    
     text-shadow: var(--text-shadow);    
     text-transform: uppercase;    
@@ -34,7 +35,8 @@
 }
 
 .portfolioPage{
-    background-color:darkgray;    
+    background: rgb(22,109,59);
+    background: radial-gradient(circle, rgba(22,109,59,1) 0%, rgba(0,0,0,1) 100%);
     font-size: 3.9vw;
     text-shadow: var(--text-shadow);
     font-family: 'Aboreto', cursive;
