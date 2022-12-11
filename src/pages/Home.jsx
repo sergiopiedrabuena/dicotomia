@@ -21,13 +21,13 @@ window.addEventListener("load", () => {
 
 const Home = () => {
 	return (
-		<div>
+		<>
 			<Welcome/>
 			<ul id='pageSelector' className='pageSelector'>
 				<li className='portfolioPage'><a href='/portfolio'>Portfolio</a></li>
 				<li className='serghipPage'><a href='/serghip'>Perfil<br/>artistico</a></li>
 			</ul>
-		</div>
+		</>
 	);
 }
 
