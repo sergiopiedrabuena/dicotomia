@@ -1,6 +1,6 @@
 import React from 'react';
 import FotoPortada from '@images/portada.png';
-import Loading from '../components/Loading';
+import Loading from '@components/Loading';
 import '@styles/Portada.scss';
 import '@styles/Loading.scss';
 

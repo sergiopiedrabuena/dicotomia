@@ -1,7 +1,7 @@
 import React from 'react';
-import Welcome  from '../components/Welcome';
-import "../styles/Home.scss";
-import "../styles/Welcome.scss";
+import Welcome  from '@components/Welcome';
+import "@styles/Home.scss";
+import "@styles/Welcome.scss";
 
 //Tamaño de pantalla
 function resizeListener() {

@@ -1,0 +1,46 @@
+{
+    "directivos": [
+        {
+            "id": "1",
+            "nomyape": "Nombre Aleatorio Primero",
+            "jerarquia": "(E.G) Inspector Mayor",
+            "promedio": "99",
+            "foto": "link-de-foto"
+        },
+        {
+            "id": "2",
+            "nomyape": "Nombre Aleatorio Segundo",
+            "jerarquia": "(E.G) Inspector Mayor",
+            "promedio": "99",
+            "foto": "link-de-foto"
+        },
+        {
+            "id": "3",
+            "nomyape": "Nombre Aleatorio Tercero",
+            "jerarquia": "(E.G) Inspector Mayor",
+            "promedio": "99",
+            "foto": "link-de-foto"
+        },
+        {
+            "id": "4",
+            "nomyape": "Nombre Aleatorio Cuarto",
+            "jerarquia": "(E.G) Inspector Mayor",
+            "promedio": "99",
+            "foto": "link-de-foto"
+        },
+        {
+            "id": "5",
+            "nomyape": "Nombre Aleatorio Quinto",
+            "jerarquia": "(E.G) Inspector Mayor",
+            "promedio": "99",
+            "foto": "link-de-foto"
+        },
+        {
+            "id": "6",
+            "nomyape": "Nombre Aleatorio Sexto",
+            "jerarquia": "(E.G) Inspector Mayor",
+            "promedio": "99",
+            "foto": "link-de-foto"
+        }
+    ]
+}

@@ -3,10 +3,10 @@ import Carousel from 'react-bootstrap/Carousel';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 
-import Image1 from '../assets/images/image1.jpg';
-import Image2 from '../assets/images/image2.jpg';
-import Image3 from '../assets/images/image3.jpg';
-import Image4 from '../assets/images/image4.jpg';
+import Image1 from '@assets/images/image1.jpg';
+import Image2 from '@assets/images/image2.jpg';
+import Image3 from '@assets/images/image3.jpg';
+import Image4 from '@assets/images/image4.jpg';
 
 
 import '@styles/CarouselTrabajo.scss';
@@ -50,7 +50,7 @@ function CarouselTrabajo() {
             </Carousel.Item>
             <Carousel.Item className='itemCarousel'>
                 
-            <a target='_blank' href="https://codesandbox.io/p/github/serghip/personalizedcards-mui/"><img
+            <a target='_blank' href="/portfolio/personalizedcardsmui"><img
                     className="imageCarousel d-block w-100"
                     src={Image4}
                     alt="Fourth slide"

@@ -2,10 +2,10 @@ import React from 'react';
 import '@styles/AcercaDe.scss';
 import '@styles/global.css';
 
-import ShapeWave from '../components/ShapeWave';
-import frontendIcon from '../assets/icons/frontend.png';
-import backendIcon from '../assets/icons/backend.png';
-import desingIcon from '../assets/icons/desing.png';
+import ShapeWave from '@components/ShapeWave';
+import frontendIcon from '@assets/icons/frontend.png';
+import backendIcon from '@assets/icons/backend.png';
+import desingIcon from '@assets/icons/desing.png';
 
 const AcerdaDe = () => {
 	return (

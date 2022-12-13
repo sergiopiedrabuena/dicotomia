@@ -1,5 +1,5 @@
 import React from 'react'
-import "../styles/Welcome.scss";
+import "@styles/Welcome.scss";
 
 setTimeout(() =>{
     let welcomeMessage = document.getElementById('welcomeMessage');

@@ -1,7 +1,7 @@
 import React from 'react';
 import '@styles/Trabajo.scss';
 import CarouselTrabajo from '@components/CarouselTrabajo'
-import CardsTrabajo from '../components/CardsTrabajo';
+import CardsTrabajo from '@components/CardsTrabajo';
 
 const Trabajo = () => {
 	return (
