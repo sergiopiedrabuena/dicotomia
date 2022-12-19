@@ -14,7 +14,7 @@ function CardFirst() {
         <Card.Text>
         Utilize la libreria de leaflet.js y el framework de material desing. Montado sobre React y manipulado con javascript.
         </Card.Text>
-        <Button target='_blank' size="lg" variant="success" href="https://codesandbox.io/p/github/serghip/react-leaflet-leaflet-markercluster/csb-c3rkrx/draft/modern-butterfly">Visualizar</Button>
+        <Button target='_blank' size="lg" variant="success" href="https://codesandbox.io/p/github/sergiopiedrabuena/react-leaflet-leaflet-markercluster/main">Visualizar</Button>
       </Card.Body>
       </div>            
     </Card>
