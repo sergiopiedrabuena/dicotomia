@@ -57,7 +57,7 @@ module.exports = {
 			},
 			{
 				test: /\.(woff|woff2|ttf|eot|otf)$/i,  // Tipos de fuentes a incluir
-				type: 'asset/resource',  // Tipo de módulo a usar (este mismo puede ser usado para archivos de imágenes)
+				type: 'asset/inline',  // Tipo de módulo a usar (este mismo puede ser usado para archivos de imágenes)
 			}
 		]
 	},
