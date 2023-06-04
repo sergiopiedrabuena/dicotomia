@@ -1,32 +1,25 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import Welcome  from '@components/Welcome';
+import { resizeHandler } from '@hooks/resizeHandler';
 import "@styles/Home.scss";
 import "@styles/Welcome.scss";
 
-//Tamaño de pantalla
-function resizeListener() {
-	return window.innerHeight;
-}
-function resizer() {
-	let pageSelector = document.getElementById('pageSelector');
-	let value = resizeListener();
-	pageSelector.style = `height: ${value}px`;
-}
-window.addEventListener("resize", () => {
-	resizer();
-});
-window.addEventListener("load", () => {
-	resizer()
-});
-
 const Home = () => {
+	useEffect(() => {
+		resizeHandler();
+	  }, []);
+
 	return (
 		<>
 			<Welcome/>
-			<ul id='pageSelector' className='pageSelector'>
-				<li className='portfolioPage'><a href='/portfolio'>Portfolio</a></li>
-				<li className='serghipPage'><a href='/serghip'>Perfil<br/>artistico</a></li>
-			</ul>
+			<div id="home">
+				<div id="homeList">					
+					<a href="dance-and-entertainment"> Danza y entretenimiento </a>
+					<a href="web-development"> Desarrollo web </a>
+					<a href="about-us"> Acerca de </a>
+					<a href="contact"> Contacto </a>
+				</div>
+			</div>
 		</>
 	);
 }

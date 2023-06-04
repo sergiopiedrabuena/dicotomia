@@ -22,15 +22,15 @@
 .welcomeMessage p{
     display: grid;
     place-items: center;
+    text-align: center;
     height: 100%;   
-    text-shadow: var(--text-shadow);    
-    text-transform: uppercase;
-    font-family: 'Quattrocento Sans', sans-serif;
-    font-size: 8.9vw;
+    text-shadow: var(--text-shadow);  
+    font-family: 'Dandelion Soup', sans-serif;
+    font-size: 12vw;
     color:gainsboro;
     animation: expandWelcomeMessage 1s;
 }
 
 @keyframes expandWelcomeMessage {
-    0%{font-size: 0; opacity: 0; }100%{font-size: 8.9vw; opacity: 1;}
+    0%{font-size: 0; opacity: 0; }100%{font-size: 12vw; opacity: 1;}
 }

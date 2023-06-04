@@ -3,50 +3,48 @@ html{
     height: 100%;
 }
 
-
-.pageSelector{
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-}
-
-.pageSelector li{
-    width: 50%;    
-    height:100%;
-    list-style: none;    
+#home{
+    background: url("https://blz04pap001files.storage.live.com/y4mHctaSEWAFh5pXrjjvJ4m9WaTpLH7SKFgRN5SKUFRWT3xyMztJw6KALn3NAy853A2Jvg7XpJOXuSqjYV4goQl2WJq6QQlkjQq0VvCgs9l2pYpGD8eNSRS_p19G2Hse9t8rZ7HO3f8gqM-Lk5hynHFRhkdKLSlhpPLB9yQnszCZPgAs4vYAHDTxTvgyTmCnAJ8?width=1191&height=1191&cropmode=none");
+    background-repeat: no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
+    background-size: contain;
+    align-items: center;
+    background-color: black;
+    background-position: top;
 }
 
-.pageSelector li a {
-    color:black;
+#homeList {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color:white;
+    font-family: 'NT Mikella Bold';    
+    letter-spacing: 2px;
+}
+
+#homeList a {    
     text-decoration: none;
-    text-align: center;
+    color: white;
+}
+#homeList a:hover {    
+    opacity: 0.8;
 }
 
-.serghipPage{
-    background: rgb(4,97,159);
-background: radial-gradient(circle, rgba(4,97,159,1) 0%, rgba(0,0,0,1) 100%);
-    font-size: 3.9vw;    
-    text-shadow: var(--text-shadow);    
-    text-transform: uppercase;    
-    font-family: 'Aboreto', cursive;
-    transition: width 2s;
-}
-.serghipPage:hover{
-    width: 85%;
-}
-
-.portfolioPage{
-    background: rgb(22,109,59);
-    background: radial-gradient(circle, rgba(22,109,59,1) 0%, rgba(0,0,0,1) 100%);
-    font-size: 3.9vw;
-    text-shadow: var(--text-shadow);
-    font-family: 'Aboreto', cursive;
-    transition: width 2s;
-}
-.portfolioPage:hover{
-    width: 85%;
-}
-
+/* Estilos para resolución menor a 480px */
+@media (max-width: 580px) {
+    #homeList{
+       padding-top: 60vw;       
+       font-size: 18px;
+    }
+  }
+  
+  /* Estilos para resolución mayor a 2020px */
+  @media (min-width: 580px){
+    #homeList{
+        justify-content: center;
+        padding-top: 230px;
+        font-size: 22px;
+    }
+  }

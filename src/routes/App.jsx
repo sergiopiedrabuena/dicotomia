@@ -1,8 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Home from '@pages/Home';
-import Serghip from '@pages/Serghip';
-import Portfolio from '@pages/Portfolio';
+import DanceAndEntertainment from '@pages/DanceAndEntertainment';
 import '@styles/global.css';
 
 const App = () => {
@@ -10,8 +9,7 @@ const App = () => {
 		<BrowserRouter>
 			<Routes>
 				<Route path="/" element={<Home />} />
-				<Route path="/serghip" element={<Serghip />}></Route>
-				<Route path="/portfolio" element={<Portfolio />} />
+				<Route path="/dance-and-entertainment" element={<DanceAndEntertainment/>} />
 			</Routes>
 		</BrowserRouter>
 	);

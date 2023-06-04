@@ -16,21 +16,21 @@
     font-family: 'Nunito';
     src: url('/src/assets/fonts/nunito-v25-latin-regular.woff2') format('woff2'),
     url('/src/assets/fonts/nunito-v25-latin-regular.woff') format("woff"),
-    url('/src/assets/fonts/nunito-v25-latin-regular.ttf') format("ttf");
+    url('/src/assets/fonts/nunito-v25-latin-regular.ttf') format("truetype");
 }
 @font-face {
     font-family: 'Aboreto';
     src: url('/src/assets/fonts/aboreto-v2-latin-regular.woff2') format('woff2'),
     url('/src/assets/fonts/aboreto-v2-latin-regular.woff') format("woff"),
     url('/src/assets/fonts/aboreto-v2-latin-regular.eot') format("eot"),
-    url('/src/assets/fonts/aboreto-v2-latin-regular.ttf') format("ttf");
+    url('/src/assets/fonts/aboreto-v2-latin-regular.ttf') format("truetype");
 }
 @font-face {
     font-family: 'Martel';
     src: url('/src/assets/fonts/martel-v10-latin-regular.woff2') format('woff2'),
     url('/src/assets/fonts/martel-v10-latin-regular.woff') format("woff"),
     url('/src/assets/fonts/martel-v10-latin-regular.eot') format("eot"),
-    url('/src/assets/fonts/martel-v10-latin-regular.ttf') format("ttf");
+    url('/src/assets/fonts/martel-v10-latin-regular.ttf') format("truetype");
 }
 
 @font-face {
@@ -38,5 +38,24 @@
     src: url('/src/assets/fonts/quattrocento-sans-v18-latin-regular.woff2') format('woff2'),
     url('/src/assets/fonts/quattrocento-sans-v18-latin-regular.woff') format("woff"),
     url('/src/assets/fonts/quattrocento-sans-v18-latin-regular.eot') format("eot"),
-    url('/src/assets/fonts/quattrocento-sans-v18-latin-regular.ttf') format("ttf");
+    url('/src/assets/fonts/quattrocento-sans-v18-latin-regular.ttf') format("truetype");
 }
+
+@font-face {
+    font-family: 'Dandelion Soup';
+    src: url('/src/assets/fonts/Dandelion-Soup.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: 'NT Mikella';
+    src: url('/src/assets/fonts/NT-Mikella.otf') format("opentype");
+}
+@font-face {
+    font-family: 'NT Mikella Bold';
+    src: url('/src/assets/fonts/NT-Mikella-regular.otf') format("opentype");
+}
+@font-face {
+    font-family: 'NT Mikella Regular';
+    src: url('/src/assets/fonts/NT-Mikella-bold.otf') format("opentype");
+}
+
